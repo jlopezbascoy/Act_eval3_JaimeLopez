@@ -167,4 +167,41 @@ Administrador de tareas:
 
 Procesos: Aquí se muestran todos los procesos que se están ejecutando en el sistema. Se pueden ver el nombre de los procesos, el uso de CPU, memoria y disco que consumen y detalles sobre quién es el usuario propietario del proceso. Además, puedes finalizar procesos desde el administrador de tareas  cuando se tienen problemas de rendimiento o estabilidad.
 
-![captura admins tareas](/Imagenes%204.5/)
+![captura admins tareas](/Imagenes%204.5/1.png)
+![captura admins tareas2](/Imagenes%204.5/2.png)
+
+Rendimiento: Aquí se muestran datos del rendimiento general del sistema. ver un gráfico con todos los datos y la evolución del rendimiento de los componentes de tu equipo, desde la CPU hasta las GPU que puedas tener. También puedes ver detalles sobre el uso de recursos por cada componente y la cantidad de recursos disponibles en general.
+
+![captura admins tareas3](/Imagenes%204.5/3.png)
+
+Historial de Aplicaciones: Aquí se muestran las aplicaciones que hayas ejecutado recientemente en tu sistema, junto con detalles de ello como el tiempo de ejecución y el uso de recursos de cada una.
+
+![captura admins tareas4](/Imagenes%204.5/4.png)
+
+Aplicaciones de arranque: Aquí puedes ver las aplicaciones y los servicios que se inician automáticamente cuando inicias sesión en tu cuenta. Puedes habilitar o deshabilitarlos para mejorar el tiempo de arranque o el uso de recursos. También tenemos una columna que nos indica cuánto afecta a un programa al arranque.
+
+![captura admins tareas5](/Imagenes%204.5/5.png)
+
+Usuarios:
+Aquí se muestra información sobre los usuarios que están actualmente conectados al sistema, informando de cuántos recursos ha consumido cada persona.
+
+![captura admins tareas6](/Imagenes%204.5/6.png)
+
+Detalles: Aquí se enseña una lista más detallada de los procesos en ejecución que en la pestaña Procesos. Aquí puedes ver información adicional sobre cada proceso, como el nombre del archivo ejecutable. También puedes establecer prioridades entre ellos, finalizar los procesos o los árboles de procesos, o administrar los servicios que tiene activados el ordenador.
+
+![captura admins tareas6](/Imagenes%204.5/7.png)
+![captura admins tareas7](/Imagenes%204.5/8.png)
+
+Servicios: Aquí podemos ver los servicios del sistema que se están ejecutando en tu computadora, junto con su estado (iniciado o detenido).
+![captura admins tareas8](/Imagenes%204.5/9.png)
+
+
+
+
+
+
+
+
+
+
+
