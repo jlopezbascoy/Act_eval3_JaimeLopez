@@ -9,6 +9,7 @@ Trabajo Unidad 4 3er Trimestre Jaime Lopez Bascoy Naser Chicharro Veira
 ### Creación de usuarios y grupos locales en Ubuntu Linux 22.04 LTS
 ### Establecimiento de permisos locales en Ubuntu Linux 22.04 LTS
 ### Procesos y servicios en Windows 11 Pro
+### Procesos y servicios en Ubuntu Linux 22.04 LTS
 
 # Actividad 4.1 - Creación de usuarios y grupos locales en Windows 11 Pro:
 
@@ -206,6 +207,7 @@ Para generar trafico de red simplemente hemos abierto muchas pestañas de google
 
 ![captura admins tareas12](/Imagenes%204.5/12.png)
 
+# Procesos y servicios en Ubuntu Linux 22.04 LTS
 
 Para consultar la  lista de usuarios conectados al equipo haremos lo siguiente:
 -Ctrl + alt + supr (administrador de tareas)
