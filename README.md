@@ -163,6 +163,8 @@ Ahora crearemos una serie de ficheros dentro de cada directorio y subdirectorio:
 # Actividad 4.5 - Procesos y servicios en Windows 11 Pro:
 
 Administrador de tareas:
+
+
  ● Explica brevemente qué información contiene cada una de las pestañas del Administrador de tareas: Procesos, Rendimiento, Historial de Aplicaciones, Inicio, Usuarios, Detalles y Servicios. Aporta capturas de pantalla de cada pestaña señalando los aspectos más relevantes.
 
 Procesos: Aquí se muestran todos los procesos que se están ejecutando en el sistema. Se pueden ver el nombre de los procesos, el uso de CPU, memoria y disco que consumen y detalles sobre quién es el usuario propietario del proceso. Además, puedes finalizar procesos desde el administrador de tareas  cuando se tienen problemas de rendimiento o estabilidad.
@@ -189,11 +191,81 @@ Aquí se muestra información sobre los usuarios que están actualmente conectad
 
 Detalles: Aquí se enseña una lista más detallada de los procesos en ejecución que en la pestaña Procesos. Aquí puedes ver información adicional sobre cada proceso, como el nombre del archivo ejecutable. También puedes establecer prioridades entre ellos, finalizar los procesos o los árboles de procesos, o administrar los servicios que tiene activados el ordenador.
 
-![captura admins tareas6](/Imagenes%204.5/7.png)
-![captura admins tareas7](/Imagenes%204.5/8.png)
+![captura admins tareas7](/Imagenes%204.5/7.png)
+![captura admins tareas8](/Imagenes%204.5/8.png)
 
 Servicios: Aquí podemos ver los servicios del sistema que se están ejecutando en tu computadora, junto con su estado (iniciado o detenido).
-![captura admins tareas8](/Imagenes%204.5/9.png)
+![captura admins tareas9](/Imagenes%204.5/9.png)
+
+
+Documenta cómo puede cerrarse un proceso en primer plano desde la pestaña Procesos.
+
+Para cerrar un proceso solo tendremos que realizar unos sencillos pasos:
+Abrimos el administrador de tareas y entramos a la pestaña Procesos. Hacemos click derecho sobre el proceso que deseamos finalizar y clickamos sobre “finalizar tarea”.
+![captura admins tareas10](/Imagenes%204.5/10.png)
+
+
+Documenta cómo se puede consultar el consumo de datos de la interfaz de red (tarjeta de red) de la máquina. Genera tráfico de red e indica cómo los has generado qué parte de la gráfica lo representa. 
+
+Dentro del administrador de tareas vamos al apartado rendimiento y entraremos, en nuestro caso, en ethernet (esto depende del tipo de conexión que tengamos). Nos aparecerá una grafica que nos muestra en tiempo real el consumo de datos.
+Para generar trafico de red simplemente hemos abierto muchas pestañas de google simultaneamente. El trafico que ha generado lo representa el pico que hay en la grafica de la imagen.
+
+![captura admins tareas12](/Imagenes%204.5/12.png)
+
+
+Indica dónde se puede consultar la lista de usuarios conectados a tu equipo. Cierra
+uno de los procesos en primer plano abiertos por otra persona usuaria del sistema
+que haya hecho login previamente en la máquina. Después, cierra la sesión de esa
+persona. Explica ambos procesos.
+
+Para consultar la  lista de usuarios conectados al equipo haremos lo siguiente:
+-Ctrl + alt + supr (administrador de tareas)
+-Usuarios
+
+![captura admins tareas13](/Imagenes%204.5/13.png)
+
+Para cerrar un proceso abierto por otro usuario iremos al apartado de usuarios,desplegamos la pestaña que aparece en su nombre y nos abrirá todos los procesos abiertos, donde seleccionaremos uno y haremos click derecho “Finalizar tarea”.
+
+![captura admins tareas14](/Imagenes%204.5/14.png)
+
+Para cerrar la sesión de otro usuario pulsaremos botón derecho sobre él en el apartado de usuarios y le daremos a cerrar sesión.Nos saltará una pestaña preguntando si deseamos cerrar sesión.
+
+![captura admins tareas15](/Imagenes%204.5/15.png)
+
+
+ Instala Adobe Acrobat Reader DC y documenta:
+○ cómo puedes detener el servicio AdobeARMService (Adobe Acrobat Update
+Service).
+○ cómo evitar que el servicio AdobeARMService (Adobe Acrobat Update
+Service) se inicie de manera automática cada vez que arranque el sistema
+operativo (Pestaña “Servicios” -> Abrir servicios).
+
+Una vez instalado el Adobe Acrobat, para detener su servicio, accederemos a los servicios de windows, buscaremos el Adobe Acrobat y con botón derecho propiedades nos dará la opción de detenerlo.
+
+![captura admins tareas16](/Imagenes%204.5/16.png)
+
+ Para evitar que el servicio se inicie de manera automática al iniciar el equipo, seleccionaremos la opción manual en “Tipo de inicio”.
+ 
+ ![captura admins tareas17](/Imagenes%204.5/17.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
