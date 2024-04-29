@@ -8,6 +8,7 @@ Trabajo Unidad 4 3er Trimestre Jaime Lopez Bascoy Naser Chicharro Veira
 ### Establecimiento de permisos locales en Windows 11 Pro
 ### Creación de usuarios y grupos locales en Ubuntu Linux 22.04 LTS
 ### Establecimiento de permisos locales en Ubuntu Linux 22.04 LTS
+### Procesos y servicios en Windows 11 Pro
 
 # Actividad 4.1 - Creación de usuarios y grupos locales en Windows 11 Pro:
 
@@ -162,11 +163,6 @@ Ahora crearemos una serie de ficheros dentro de cada directorio y subdirectorio:
 
 # Actividad 4.5 - Procesos y servicios en Windows 11 Pro:
 
-Administrador de tareas:
-
-
- ● Explica brevemente qué información contiene cada una de las pestañas del Administrador de tareas: Procesos, Rendimiento, Historial de Aplicaciones, Inicio, Usuarios, Detalles y Servicios. Aporta capturas de pantalla de cada pestaña señalando los aspectos más relevantes.
-
 Procesos: Aquí se muestran todos los procesos que se están ejecutando en el sistema. Se pueden ver el nombre de los procesos, el uso de CPU, memoria y disco que consumen y detalles sobre quién es el usuario propietario del proceso. Además, puedes finalizar procesos desde el administrador de tareas  cuando se tienen problemas de rendimiento o estabilidad.
 
 ![captura admins tareas](/Imagenes%204.5/1.png)
@@ -195,28 +191,21 @@ Detalles: Aquí se enseña una lista más detallada de los procesos en ejecució
 ![captura admins tareas8](/Imagenes%204.5/8.png)
 
 Servicios: Aquí podemos ver los servicios del sistema que se están ejecutando en tu computadora, junto con su estado (iniciado o detenido).
+
 ![captura admins tareas9](/Imagenes%204.5/9.png)
 
-
-Documenta cómo puede cerrarse un proceso en primer plano desde la pestaña Procesos.
-
-Para cerrar un proceso solo tendremos que realizar unos sencillos pasos:
+Para cerrar un proceso en primer plano desde la pestaña Procesos solo tendremos que realizar unos sencillos pasos:
 Abrimos el administrador de tareas y entramos a la pestaña Procesos. Hacemos click derecho sobre el proceso que deseamos finalizar y clickamos sobre “finalizar tarea”.
 ![captura admins tareas10](/Imagenes%204.5/10.png)
 
 
-Documenta cómo se puede consultar el consumo de datos de la interfaz de red (tarjeta de red) de la máquina. Genera tráfico de red e indica cómo los has generado qué parte de la gráfica lo representa. 
+Para consultar el consumo de datos de la interfaz de red haremos lo siguiente:
 
 Dentro del administrador de tareas vamos al apartado rendimiento y entraremos, en nuestro caso, en ethernet (esto depende del tipo de conexión que tengamos). Nos aparecerá una grafica que nos muestra en tiempo real el consumo de datos.
 Para generar trafico de red simplemente hemos abierto muchas pestañas de google simultaneamente. El trafico que ha generado lo representa el pico que hay en la grafica de la imagen.
 
 ![captura admins tareas12](/Imagenes%204.5/12.png)
 
-
-Indica dónde se puede consultar la lista de usuarios conectados a tu equipo. Cierra
-uno de los procesos en primer plano abiertos por otra persona usuaria del sistema
-que haya hecho login previamente en la máquina. Después, cierra la sesión de esa
-persona. Explica ambos procesos.
 
 Para consultar la  lista de usuarios conectados al equipo haremos lo siguiente:
 -Ctrl + alt + supr (administrador de tareas)
@@ -233,19 +222,14 @@ Para cerrar la sesión de otro usuario pulsaremos botón derecho sobre él en el
 ![captura admins tareas15](/Imagenes%204.5/15.png)
 
 
- Instala Adobe Acrobat Reader DC y documenta:
-○ cómo puedes detener el servicio AdobeARMService (Adobe Acrobat Update
-Service).
-○ cómo evitar que el servicio AdobeARMService (Adobe Acrobat Update
-Service) se inicie de manera automática cada vez que arranque el sistema
-operativo (Pestaña “Servicios” -> Abrir servicios).
+### ADOBE ACROBAT READER DC:
 
 Una vez instalado el Adobe Acrobat, para detener su servicio, accederemos a los servicios de windows, buscaremos el Adobe Acrobat y con botón derecho propiedades nos dará la opción de detenerlo.
 
 ![captura admins tareas16](/Imagenes%204.5/16.png)
 
  Para evitar que el servicio se inicie de manera automática al iniciar el equipo, seleccionaremos la opción manual en “Tipo de inicio”.
- 
+
  ![captura admins tareas17](/Imagenes%204.5/17.png)
 
 
